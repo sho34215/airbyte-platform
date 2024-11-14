@@ -638,6 +638,9 @@ server:
     # -- The requested resources for the server container
     requests: {}
 
+  service:
+    port: 8001
+
   # -- Node labels for pod assignment, see https://kubernetes.io/docs/user-guide/node-selection/
   nodeSelector: {}
 
